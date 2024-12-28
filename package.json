@@ -1,0 +1,13 @@
+{
+    "name": "bilibili-fans-counter",
+    "version": "1.0.0",
+    "description": "A Bilibili fans counter display",
+    "main": "main.js",
+    "scripts": {
+        "start": "node main.js"
+    },
+    "dependencies": {},
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}

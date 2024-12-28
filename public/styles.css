@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'number';
+    src: url('clock-number.ttf');
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #26323B;
+    background-color: black;
+    font-family: 'number';
+    font-size: 16vw;
+    color: #CCCCCE;
+}
+
+#main {
+    display: flex;
+    height: 100vh;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#main>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#logo {
+    width: 100%;
+    max-width: 800px;
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#logo>img {
+    width: 30%;
+    height: auto;
+    max-width: 200px;
+}
+
+#logo>#sep {
+    padding: 0 15vmin;
+}
+
+#logo>#avatar {
+    border-radius: 50%;
+}
+
+#fans {
+    font-size: 5vw;
+    color: #CCCCCE;
+    margin-left: 6vw;
+    white-space: nowrap;
+}
+
+#script {
+    display: none;
+}
